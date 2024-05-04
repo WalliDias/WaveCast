@@ -1,6 +1,7 @@
 .navbar__items{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    
 }
 
 .navbar__items button{
@@ -8,4 +9,6 @@
     flex-direction: column;
     align-items: center;
     row-gap: .4rem;
+    margin-left: 1.5em;
+    
 }
