@@ -1,0 +1,15 @@
+.menu-lateral{
+    display: grid;
+    grid-template-rows: repeat(3, auto) 1fr;
+    /* AO INVES DE REPETIR 3 VEZES O VALOR AUTO, POSSO ESCREVER "REPEAT(3,AUTO)" ASSIM VÃO SER APLICADOS OS 3 DE UMA SÓ VEZ. */
+    row-gap: 2rem;
+}
+
+.menu-lateral__logo{
+    justify-self: center;
+}
+
+.menu-lateral__link button{
+    display: flex;
+    align-items: center;
+}
